@@ -8,7 +8,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S kitty hyprland nvidia linux-headers qt5ct qt6ct libva libva-nvidia-driver-git xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland sddm-git xwaylandvideobridge-bin 
+yay -S kitty hyprland nvidia linux-headers qt5ct qt6ct libva libva-nvidia-driver-git xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland sddm-git 
 sudo cp -r ~/dots/grub/grub /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo cp -r ~/dots/mkinitcpio/mkinitcpio.conf /etc/mkinitcpio.conf
