@@ -21,7 +21,7 @@ cp -r ~/dots/firefox/home ~/.mozilla/firefox/ #default-release
 cp -r ~/dots/hypr ~/.config
 cp -r ~/dots/kitty/kitty.conf ~/.config/kitty
 cp -r ~/dots/neofetch/config.conf ~/.config/neofetch
-cp -r ~/dots/rofi/config.rasi ~/.config/rofi
+cp -r ~/dots/rofi ~/.config
 cp -r ~/dots/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
 cp -r ~/dots/spicetify/user.css ~/.config/spicetify/Themes/Pywal
 cp -r ~/dots/swaylock/config ~/.config/swaylock
