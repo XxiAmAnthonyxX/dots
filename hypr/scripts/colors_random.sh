@@ -1,4 +1,4 @@
-~/dots/scripts/kill.sh
+~/.config/hypr/scripts/kill.sh
 
 wall=$(find ~/dots/wallpapers/ -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" | shuf -n 1)
 
