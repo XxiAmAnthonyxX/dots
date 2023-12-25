@@ -1,0 +1,31 @@
+[general]
+
+framerate = 75
+
+bars = 512
+bar_width = 1
+bar_spacing = 0
+
+[color]
+
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#9E896B'
+gradient_color_2 = '#77968A'
+gradient_color_3 = '#6EC39A'
+gradient_color_4 = '#74CBA9'
+gradient_color_5 = '#A1AAA5'
+gradient_color_6 = '#B7C5BC'
+gradient_color_7 = '#ece6e1'
+gradient_color_8 = '#a5a19d'
+
+[smoothing]
+gravity = 100
+
+[eq]
+
+1 = 1
+2 = 1
+3 = 1
+4 = 1
+5 = 1

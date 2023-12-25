@@ -1,0 +1,14 @@
+[Colors]
+accent={color1}
+background={color0}
+background_fullscreen={color0}
+folderview={color2}
+folderview_topbar={color2}
+icons={color3}
+overlay={color0}
+overlay_text={color4}
+scrollbar={color5}
+text={color6}
+tid=-1
+widget={color7}
+widget_border={color8}

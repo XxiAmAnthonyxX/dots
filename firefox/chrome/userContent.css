@@ -1,0 +1,4 @@
+@-moz-document domain(youtube.com) {
+    /* hide shorts, trending and banners */
+    #content.ytd-rich-section-renderer {display: none !important;}
+    }
