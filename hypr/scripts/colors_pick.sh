@@ -1,4 +1,4 @@
-~/dots/scripts/kill.sh
+~/.config/hypr/scripts/kill.sh
 
 selected=$(ls -1 ~/dots/wallpapers | grep "png" | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
 
