@@ -28,7 +28,7 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.startup.page", 1);
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "file:///home/x/.mozilla/firefox/1mwya89w.default-release/home/index.html");
+user_pref("browser.startup.homepage", "");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
