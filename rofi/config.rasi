@@ -1,36 +1,35 @@
 @import "~/.cache/wal/colors-rofi"
 
+/* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
     font:                       "Maple Mono Light 8";
     show-icons:                 true;
-	hover-select:               false;
+	drun-display-format:        "{name}";
+    hover-select:               false;
     me-select-entry:            "";
     me-accept-entry:            "MousePrimary";
-    drun-display-format:        "{name}";
-    window-format:              "{w} · {c} · {t}";
-
 }
 
 /* ---- Window ---- */
 window {
-    width:                        761px;
+    width:                        300px;
     x-offset:                     0px;
-    y-offset:                     65px;
+    y-offset:                     0px;
     spacing:                      0px;
     padding:                      0px;
     margin:                       0px; 
     color:                        #FFFFFF;
-    border:                       3px;
-    border-color:                 #FFFFFF;
+    border:                       5px;
+    border-color:                 @color3;
     cursor:                       "default";
     transparency:                 "real";
-    location:                     north;
-    anchor:                       north;
+    location:                     center;
+    anchor:                       center;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                10px;
-    background-color:             transparent;
+    background-color:             @color0;
 }
 
 /* ---- Mainbox ---- */
@@ -39,7 +38,7 @@ mainbox {
     orientation:                  horizontal;
     spacing:                      0px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     children:                     ["listbox"];
 }
 
@@ -67,7 +66,7 @@ inputbar {
     padding:                      15px;
     border-radius:                0px;
     border-color:                 @foreground;
-    background-color:             @background;
+    background-color:             transparent;
     children:                     [ "textbox-prompt-colon", "entry" ];
 }
 
@@ -92,80 +91,74 @@ entry {
 listview {
     enabled:                      true;
     columns:                      1;
+    lines:                        8;
     cycle:                        true;
-    dynamic:                      false;
-    scrollbar:                    true;
-    layout:                       horizontal;
+    dynamic:                      true;
+    scrollbar:                    false;
+    layout:                       vertical;
     reverse:                      false;
+    fixed-height:                 true;
+    fixed-columns:                true;
     spacing:                      10px;
     padding:                      10px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     border:                       0px;
 }
 
 /* ---- Element ---- */
 element {
     enabled:                      true;
-    padding:                      0px;
+    padding:                      10px;
     margin:                       5px;
     cursor:                       pointer;
-    background-color:             @background;
+    background-color:             transparent;
     border-radius:                10px;
-    border:                       2px;
-    layout:                       vertical;
+    border:                       0px;
+    layout:                       horizontal;
 }
 
 element normal.normal {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element normal.urgent {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element normal.active {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element selected.normal {
-    border-color:                @foreground;
-    background-color:            inherit;
+    background-color:            @color11;
     text-color:                  @foreground;
 }
 
 element selected.urgent {
-    border-color:                @foreground;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element selected.active {
-    border-color:                @foreground;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element alternate.normal {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element alternate.urgent {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
 
 element alternate.active {
-    border-color:                @color11;
     background-color:            inherit;
     text-color:                  @foreground;
 }
@@ -173,9 +166,8 @@ element alternate.active {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        100px;
+    size:                        50px;
     cursor:                      inherit;
-    horizontal-align:              0.5;
 }
 
 element-text {
@@ -183,6 +175,6 @@ element-text {
     text-color:                  inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.1;
-    enabled: false;
+    horizontal-align:            0.0;
+    enabled:                     true;
 }
