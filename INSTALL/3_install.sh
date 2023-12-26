@@ -16,7 +16,6 @@ cp -r ~/dots/cava/config ~/.config/cava
 cp -r ~/dots/dunst/dunstrc ~/.config/dunst
 cp -r ~/dots/firefox/user.js ~/.mozilla/firefox/ #default-release
 cp -r ~/dots/firefox/chrome ~/.mozilla/firefox/ #default-release
-cp -r ~/dots/firefox/home ~/.mozilla/firefox/ #default-release
 cp -r ~/dots/hypr ~/.config
 cp -r ~/dots/kitty/kitty.conf ~/.config/kitty
 cp -r ~/dots/neofetch/config.conf ~/.config/neofetch
