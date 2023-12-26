@@ -71,7 +71,3 @@
     foreground = "#9db3c2"
     frame_color = "#40637F"
     timeout = 0
-[Vivaldi]
-    appname = Vivaldi
-    summary = Download Complete
-    script = ~/.config/dunst/scripts/libreoffice.sh
