@@ -22,7 +22,7 @@
     frame_color = "{color3}"
     separator_color = frame
     sort = yes
-    font = Monospace 8
+    font = Maple Mono Light 8
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -71,7 +71,3 @@
     foreground = "{foreground}"
     frame_color = "{color3}"
     timeout = 0
-[Vivaldi]
-    appname = Vivaldi
-    summary = Download Complete
-    script = ~/.config/dunst/scripts/libreoffice.sh
