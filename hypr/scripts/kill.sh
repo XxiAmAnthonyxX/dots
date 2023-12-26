@@ -1,4 +1,5 @@
 killall swww-daemon
+killall dunst
 killall kitty
 killall cava
 killall btop
@@ -12,5 +13,4 @@ killall soffice.bin oosplash
 killall rofi
 killall nwg-look
 killall themix-gui
-killall dunst
 killall bottles
