@@ -26,11 +26,11 @@ ring-ver-color={color2}
 ring-wrong-color=31748f
 ring-clear-color=9ccfd8
 
-text-color={color3}
+text-color={color7}
 text-caps-lock-color=""
-text-ver-color={color3}
+text-ver-color={color7}
 text-wrong-color=31748f
-text-clear-color={color3}
+text-clear-color={color7}
 
 grace=2
 grace-no-mouse
