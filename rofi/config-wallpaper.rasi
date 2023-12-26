@@ -4,16 +4,16 @@
 configuration {
     modi:                       "drun,run";
     font:                       "Maple Mono Light 8";
-    show-icons:                 true;
-    drun-display-format:        "{name}";
-	hover-select:               false;
+    show-icons:                 false;
+	drun-display-format:        "{name}";
+    hover-select:               false;
     me-select-entry:            "";
     me-accept-entry:            "MousePrimary";
 }
 
 /* ---- Window ---- */
 window {
-    width:                        1500px;
+    width:                        1000px;
     x-offset:                     0px;
     y-offset:                     0px;
     spacing:                      0px;
@@ -97,9 +97,9 @@ listview {
     scrollbar:                    false;
     layout:                       horizontal;
     reverse:                      false;
-    fixed-height:                 false;
-    fixed-columns:                false;
-    spacing:                      10px;
+    fixed-height:                 true;
+    fixed-columns:                true;
+    spacing:                      30px;
     padding:                      10px;
     margin:                       0px;
     background-color:             transparent;
@@ -115,7 +115,7 @@ element {
     background-color:             transparent;
     border-radius:                10px;
     border:                       0px;
-    layout:                       vertical;
+    layout:                       horizontal;
 }
 
 element normal.normal {
@@ -134,7 +134,7 @@ element normal.active {
 }
 
 element selected.normal {
-    background-color:            @color2;
+    background-color:            @color11;
     text-color:                  @foreground;
 }
 
@@ -166,7 +166,7 @@ element alternate.active {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        100px;
+    size:                        50px;
     cursor:                      inherit;
 }
 
@@ -175,6 +175,6 @@ element-text {
     text-color:                  inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.1;
-    enabled:                     false;
+    horizontal-align:            0.0;
+    enabled:                     true;
 }
