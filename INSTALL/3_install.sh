@@ -2,7 +2,6 @@
 mkdir ~/recordings
 mkdir ~/screenshots
 mkdir ~/.config/spicetify/Themes/Pywal
-mkdir ~/.config/rofi
 mkdir ~/.config/dunst
 mkdir ~/.config/cava
 mkdir ~/.config/neofetch
