@@ -62,7 +62,7 @@ mode-switcher{
     padding:                     160px 10px 160px 10px;
     spacing:                     25px;
     background-color:            transparent;
-    background-image:            url("~/.config/swww/wall.blur", height);
+    background-image:            url("~/.cache/current_wallpaper.jpg", height);
 }
 button {
     cursor:                      pointer;
