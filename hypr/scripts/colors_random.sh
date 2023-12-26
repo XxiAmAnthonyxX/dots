@@ -36,4 +36,8 @@ cp -r $HOME/.cache/wal/colors-qimgv $HOME/.config/qimgv
 cd $HOME/.config/qimgv
 mv colors-qimgv theme.conf
 
+cp -r $HOME/.cache/wal/colors-rofi $HOME/.config/rofi/themes
+cd $HOME/.config/rofi/themes
+mv colors-rofi theme.rasi
+
 nwg-look
