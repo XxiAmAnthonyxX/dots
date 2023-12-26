@@ -1,9 +1,0 @@
-@import url('file:///home/x/.cache/wal/colors.css');
-
-:root {
-    --color-bg: var(--background);
-}
-
-body {
-    background: var(--color-bg);
-}
