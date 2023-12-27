@@ -19,4 +19,4 @@ sudo cp -r ~/dots/sddm/default.conf /usr/lib/sddm/sddm.conf.d/default.conf
 
 sudo systemctl enable sddm ufw
 
-sudo reboot
+#sudo reboot
