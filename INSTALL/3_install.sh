@@ -11,6 +11,7 @@ mkdir ~/.config/qimgv
 mkdir ~/.config/Thunar
 mkdir ~/.config/xfce4
 
+cp -r ~/dots/qimgv/qimgv.conf ~/.config/qimgv
 cp -r ~/dots/btop/btop.conf ~/.config/btop
 cp -r ~/dots/cava/config ~/.config/cava
 cp -r ~/dots/dunst/dunstrc ~/.config/dunst
