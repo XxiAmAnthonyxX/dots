@@ -1,35 +1,37 @@
+
+my dots are intended for a fresh minimal instalation of ArchLinux ; follow my guide HERE. the INSTALL scrips will auto configure nvidia to work with hyprland. if you dont have an nvidia gpu you are on your own. dont blindy run my scripts on your system as that can lead to potential conflicts. I have a guide to get gaming working with bottles HERE. the customizations below are manual steps that must be done before running 3_install.sh.
+
+
+
 ---Firefox---
 
 -Create User-
 SUPER+F to open firefox
 
 -Copy Configs-
-SUPER+T to open thunar and navigate to /home/'USER'/.mozilla/firefox/'NUMBERS_LETTERS'.default-release/
-CTRL+T to open a new tab and navigate to /home/x/dots/firefox
-copy chome home & user.js from /firefox to /'NUMBERS_LETTERS'.default-release
+SUPER+T to open thunar | navigate to ~/.mozilla/firefox/'NUMBERS_LETTERS'.default-release
+CTRL+T to open a new tab | navigate to ~/dots/firefox
+copy chome and user.js from /firefox to /'NUMBERS_LETTERS'.default-release
 SUPER+K to close thunar
 
 -Install Add-Ons-
-search for https://addons.mozilla.org/en-US/firefox/
-install ublock origin and pywalfox
+search for https://addons.mozilla.org/en-US/firefox/ | install 'Ublock Origin' and 'Pywalfox'
 
 -Configure Themeing-
 search for about:config 
-type toolkit.legacyUserProfileCustomizations.stylesheets and change the value from false to true
+type toolkit.legacyUserProfileCustomizations.stylesheets and change the value from 'false' to 'true'
 click the addons icon, then pywalfox, lastly fetch pywal colors
 
 -Configure Ublock Origin-
 click the addons icon, then ublock origin, lastly the gear icon in bottom right
-in settings enable Disable cosmetic filtering, Block media elements larger than 50kb, Block remote fonts, Disable JavaScript
-in filter lists enable Ignore generic cosmetic filters, click the drop down arrow directly under and check every box in the Built-in, Ads, Privacy, Malware protection, security, Multipurpose, Annoyances tabs.
+in the 'Settings' tab enable 'Disable cosmetic filtering' 'Block media elements larger than 50kb' 'Block remote fonts' 'Disable JavaScript'
+in the 'Filter lists' tab enable 'Ignore generic cosmetic filters' | click the drop down arrow directly in the | check every box in the 'Built-in' 'Ads' 'Privacy' 'Malware protection' 'Security' 'Multipurpose' 'Annoyances tabs'
 click apply changes
 SUPER+K to close firefox
 
 *Notes*
-Default Search Engine is disabled to prevent search engines from knowing your search queries. you will have to select what search engine to search with every time.
-every time the SUPER+CRTL+C keybind is pressed the color.sh script will close and relaunch all gui programs to ensure theming is set correctly. all your history will be saved.
-uncheck the 4 X'ed out icons in the ublock origin add-on dashboard when visiting any website to ensure full functionality. i value privacy/security but to not have to do this everytime uncheck these options in the ublock origin settings.
-to make changes to any configs edit the /user.js /chrome/userChrome.css userContent.css /home/index.html style.css time.js files in /home/'USER'/.mozilla/firefox/'NUMBERS_LETTERS'.default-release/.
+'Default Search Engine' is disabled in the user.js file to prevent search engines from knowing your search queries. you will have to select what search engine to search with every time.
+uncheck the 4 X'ed out icons in the ublock origin add-on dashboard when visiting any website to ensure full functionality. to not have to do this everytime undo step 2 in '-Configure Ublock Origin-'
 
 
 
@@ -37,41 +39,76 @@ to make changes to any configs edit the /user.js /chrome/userChrome.css userCont
 
 -Login-
 SUPER+S to open spotify
+SUPER+F to open firefox
 follow login procedure
-SUPER+K to close spotify
+SUPER+K to close spotify and firefox
 
 *Notes*
-the first time the color.sh script is run be patiant because spicetify is creating a theme backup. this can take quite a bit of time depending on your hardware. after the first execution of the script spicetify will not run a backup.
+first execution of colors_pick/random.sh will run a spicetify backup. this can take a while depending on your hardware. after the first execution of colors_pick/random.sh spicetify will still run a backup but it wont take long.
 
 
 
 ---VSCodium---
 
 -Theme-
-click the extentions icon on the panel to the left
-search for wal theme and install it
-click set color scheme
+SUPER+V to open vscodium
+click the extentions tab | last icon on the panel to the left
+search for 'Wal Theme' and install it
+click 'Set Color Scheme'
+SUPER+K to close vscodium
 
-*Notes*
-the color.sh script will automatically change the theme. vscode automatically saves your work.
+*notes*
+change any options by editing the config located at '~/.config/VSCodium/User/settings.json'
 
 
 
----Themix---
+---Pavucontrol---
+
+-Sounds-
+Super+P to open pavucontrol
+change 'Output Devices | HDMI' volume to 100%
+change 'Playback | System Sounds' volume to 0%
+
+*notes*
+im not a fan of the system sounds but if you are then by all means leave it on 100%
+
+
+
+---Libreoffice---
+
+-Tooltips-
+Super+L
+click writer to the left
+disable tooltips on startup
+SUPER+K to close libreoffice
+
+*notes*
+leave it on if you find them usefull i guess
+
+
+
+---Theme---
+
+-Generate Color Scheme From Wallpaper-
+SUPER+CTRL+P | select wallpaper
 
 -Generate Theme-
-place your wallpaper in /home/x/dots/wallpapers
 SUPER+ALT+T to open themix
-click import oomox color file
-navigate to /home/x/.cache/wal
-select colors-oomox
-scroll down and change icon style to papirus
-click export theme
-apply options and create
-click export icons
-apply options and create
+click 'Import' | 'Oomox Color File'
+navigate to '~/.cache/wal'
+select 'colors-oomox'
+scroll down and change icon style to 'Suru++ Aspromauros'
+click export theme | change name | apply options and create
+click export icons | change name | apply options and create
+SUPER+K to close themix
+
+-Apply Themes-
+SUPER+ALT+N to open nwg-look
+in the 'Widgets' tab select 'name' | change font to 'Maple Mono Light | 8'
+in the 'Icon Theme' tab select 'name' 
+in the 'Other' tab untick 'Enable Event Sounds'
+click apply then close
 
 *Notes*
-make sure there is only 1 wallpaper in the /home/x/dots/wallpapers folder at a time. the SUPER+CTRL+C keybind runs a random wallpaper script. 
-once youve generated all your themes you can now place all your wallpapers in the folder.
-at the end of the color.sh script nwg will pop up and there you select the correct theme and icons.
+change the colors, icon style, name, and font to whatever you like. if you like event sounds leave them on
+running SUPER+CTRL+P/R will close all gui applications to ensure theming is set correctly. comment out line 1 in both scripts to not kill any apps
