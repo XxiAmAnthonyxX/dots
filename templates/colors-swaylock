@@ -32,7 +32,7 @@ text-ver-color={color7}
 text-wrong-color=31748f
 text-clear-color={color7}
 
-grace=2
+grace=0
 grace-no-mouse
 grace-no-touch
 datestr=%a, %B %e
