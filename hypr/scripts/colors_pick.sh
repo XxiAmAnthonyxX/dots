@@ -32,8 +32,4 @@ cp -r $HOME/.cache/wal/colors-swaylock $HOME/.config/swaylock
 cd $HOME/.config/swaylock
 mv colors-swaylock config
 
-cp -r $HOME/.cache/wal/colors-qimgv $HOME/.config/qimgv
-cd $HOME/.config/qimgv
-mv colors-qimgv theme.conf
-
 nwg-look
