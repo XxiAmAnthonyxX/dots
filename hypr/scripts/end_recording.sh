@@ -1,3 +1,3 @@
 killall wf-recorder
 
-qimgv ~/recordings
+swappy -f $screenshot
