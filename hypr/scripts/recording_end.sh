@@ -1,3 +1,4 @@
+
 killall wf-recorder
 
-swappy -f $screenshot
+mpv $1
