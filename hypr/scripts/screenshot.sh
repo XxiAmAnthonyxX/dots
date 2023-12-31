@@ -1,5 +1,5 @@
 cd ~/screenshots
 
-grim -c -g "$(slurp)" -t png -o ~/screenshots 
+grimblast save screen
 
 qimgv ~/screenshots
