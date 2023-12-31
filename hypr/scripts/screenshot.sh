@@ -1,5 +1,6 @@
-cd ~/screenshots
 
-grimblast save screen
+screenshot='./screenshots/screenshot_'"$(date '+%Y_%m_%_d..%H.%M.%S')"'.png'
 
-qimgv ~/screenshots
+grimblast save screen './screenshots/screenshot_'"$(date '+%Y_%m_%_d..%H.%M.%S')"'.png'
+
+swappy -f $screenshot
