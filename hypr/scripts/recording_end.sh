@@ -1,4 +1,4 @@
 
 killall wf-recorder
 
-mpv $1
+qimgv $1
