@@ -24,6 +24,7 @@ cp -r ~/dots/spicetify/user.css ~/.config/spicetify/Themes/Pywal
 cp -r ~/dots/spicetify/adblock.js ~/.config/spicetify/Extensions
 cp -r ~/dots/spicetify/config-xpui.ini ~/.config/spicetify
 cp -r ~/dots/swaylock/config ~/.config/swaylock
+cp -r ~/dots/qimgv/qimgv.conf ~/.config/qimgv
 cp -r ~/dots/templates ~/.config/wal
 cp -r ~/dots/thunar/helpers.rc ~/.config/xfce4
 cp -r ~/dots/thunar/uca.xml ~/.config/Thunar
