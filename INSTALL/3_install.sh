@@ -1,7 +1,7 @@
 
 mkdir ~/recordings
 mkdir ~/screenshots
-mkdir ~/.config/spicetify/Themes/Pywal
+#mkdir ~/.config/spicetify/Themes/Pywal
 mkdir ~/.config/dunst
 mkdir ~/.config/cava
 mkdir ~/.config/neofetch
@@ -20,10 +20,10 @@ cp -r ~/dots/hypr ~/.config
 cp -r ~/dots/kitty/kitty.conf ~/.config/kitty
 cp -r ~/dots/neofetch/config.conf ~/.config/neofetch
 cp -r ~/dots/rofi ~/.config
-cp -r ~/dots/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
-cp -r ~/dots/spicetify/user.css ~/.config/spicetify/Themes/Pywal
-cp -r ~/dots/spicetify/adblock.js ~/.config/spicetify/Extensions
-cp -r ~/dots/spicetify/config-xpui.ini ~/.config/spicetify
+#cp -r ~/dots/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
+#cp -r ~/dots/spicetify/user.css ~/.config/spicetify/Themes/Pywal
+#cp -r ~/dots/spicetify/adblock.js ~/.config/spicetify/Extensions
+#cp -r ~/dots/spicetify/config-xpui.ini ~/.config/spicetify
 cp -r ~/dots/swaylock/config ~/.config/swaylock
 cp -r ~/dots/qimgv/qimgv.conf ~/.config/qimgv
 cp -r ~/dots/templates ~/.config/wal
@@ -35,8 +35,8 @@ cp -r ~/dots/zsh/.zshrc ~/
 
 sudo systemctl enable NetworkManager.service
 
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
+#sudo chmod a+wr /opt/spotify
+#sudo chmod a+wr /opt/spotify/Apps -R
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
