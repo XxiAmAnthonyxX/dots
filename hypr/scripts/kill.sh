@@ -5,7 +5,7 @@ killall cava
 killall btop
 killall qimgv
 killall firefox
-killall spotify
+#killall spotify
 killall thunar
 killall codium
 killall pavucontrol
