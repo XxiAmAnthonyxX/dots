@@ -37,3 +37,5 @@ cd $HOME/.config/qimgv
 mv colors-qimgv theme.conf
 
 nwg-look
+
+~/.config/hypr/scripts/launch.sh
