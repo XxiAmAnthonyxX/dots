@@ -25,14 +25,14 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 // -------------------------------------
 // Set startup page [SETUP-CHROME]
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 1);
+user_pref("browser.startup.page", 0);
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "");
+user_pref("browser.startup.homepage", "about:blank");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-user_pref("browser.newtabpage.enabled", true);
+user_pref("browser.newtabpage.enabled", false);
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+] Pocket > Sponsored Stories
@@ -79,6 +79,8 @@ user_pref("browser.discovery.enabled", false);
 // -------------------------------------
 // Disable shopping experience [FF116+]
 user_pref("browser.shopping.experience2023.enabled", false); // [DEFAULT: false]
+user_pref("browser.shopping.experience2023.opted", 2);
+user_pref("browser.shopping.experience2023.active", false);
 //
 // TELEMETRY
 //
@@ -471,7 +473,7 @@ user_pref("browser.xul.error_pages.expert_bad_cert", true);
 // REFERERS
 // >>>>>>>>>>>>>>>>>>>>>
 //
-/ Control the amount of cross-origin information to send [FF52+]
+// Control the amount of cross-origin information to send [FF52+]
 // 0=send full URI (default), 1=scheme+host+port+path, 2=scheme+host+port
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 //
@@ -645,6 +647,15 @@ user_pref("privacy.cpd.cookies", true);
 // Reset default "Time range to clear" for "Clear Recent History"
 // 0=everything, 1=last hour, 2=last two hours, 3=last four hours, 4=today
 user_pref("privacy.sanitize.timeSpan", 0);
+//
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// FPP (fingerprintingProtection)
+// >>>>>>>>>>>>>>>>>>>>>
+// Enable FPP in PB mode [FF114+]
+// user_pref("privacy.fingerprintingProtection.pbmode", true); // [DEFAULT: true FF118+]
+// -------------------------------------
+// Set global FPP overrides [FF114+]
+// user_pref("privacy.fingerprintingProtection.overrides", "");
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // RFP (resistFingerprinting)
@@ -930,7 +941,7 @@ user_pref("privacy.donottrackheader.enabled", false);
 // Customize ETP settings
 // user_pref("network.cookie.cookieBehavior", 5); // [DEFAULT: 5]
 // user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+]
-// user_pref("privacy.partition.network_state.ocsp_cache", true);
+// user_pref("privacy.partition.network_state.ocsp_cache", true); // [DEFAULT: true FF123+]
 // user_pref("privacy.query_stripping.enabled", true); // [FF101+]
 user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid");
 // user_pref("network.http.referer.disallowCrossSiteRelaxingDefault", true);
