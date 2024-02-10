@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Wal",
     "window.menuBarVisibility": "compact",
+    "editor.fontWeight": "bold",
     "editor.fontSize": 15,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
@@ -8,11 +8,15 @@
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.enabled": false,
     "editor.minimap.side": "left",
-    "editor.fontFamily": "'Maple Mono'",
     "extensions.autoUpdate": false,
     "workbench.statusBar.visible": false,
     "terminal.external.linuxExec": "kitty",
     "terminal.explorerKind": "both",
     "terminal.sourceControlRepositoriesKind": "both",
     "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Wal",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
 }
