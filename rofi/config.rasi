@@ -3,7 +3,7 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Maple Mono Light 8";
+    font:                       "JetBrainsMono Nerd Font 8";
     show-icons:                 true;
 	drun-display-format:        "{name}";
     hover-select:               false;
