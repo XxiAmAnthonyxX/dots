@@ -33,6 +33,8 @@ cp -r ~/dots/vscodium/settings.json ~/.config/VSCodium/User
 cp -r ~/dots/zsh/.p10k.zsh ~/
 cp -r ~/dots/zsh/.zshrc ~/
 
+ln -s ~/.cache/wal/colors-discord.css ~/.config/vesktop/themes/pywal-vencord.theme.css
+
 sudo systemctl enable NetworkManager.service
 
 sudo chmod a+wr /opt/spotify
