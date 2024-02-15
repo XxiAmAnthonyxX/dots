@@ -31,6 +31,7 @@ cp -r ~/dots/thunar/helpers.rc ~/.config/xfce4
 cp -r ~/dots/thunar/uca.xml ~/.config/Thunar
 cp -r ~/dots/zsh/.p10k.zsh ~/
 cp -r ~/dots/zsh/.zshrc ~/
+cp -r ~/dots/vesktop/quickCss.css ~/.config/vesktop/settings
 
 ln -s ~/.cache/wal/colors-discord.css ~/.config/vesktop/themes/pywal-vencord.theme.css
 
