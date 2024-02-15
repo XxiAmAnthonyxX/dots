@@ -7,15 +7,9 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "colors.rasi"
+@import                          "~/.cache/wal/colors-rofi"
 
 * {
-    border-colour:               var(selected);
-    background-colour:           var(background-transparent);
-    foreground-colour:           var(foreground);
-    alternate-background:        var(selected);
-	alternate-foreground:		 var(background);
-
     font:                        "JetBrains Mono Nerd Font 10";
 }
 
@@ -25,9 +19,9 @@ window {
     transparency:                "real";
     location:                    center;
 
-    fullscreen:                  true;
-    width:                       1366px;
-    height:                      768px;
+    fullscreen:                  false;
+    width:                       1000px;
+    height:                      1000px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -96,9 +90,9 @@ listview {
     enabled:                     true;
     columns:                     1;
     lines:                       128;
-    cycle:                       false;
-    dynamic:                     false;
-    scrollbar:                   false;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   true;
     layout:                      vertical;
     reverse:                     false;
     height:                      800px;
