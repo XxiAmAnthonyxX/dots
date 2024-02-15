@@ -22,6 +22,6 @@ done
 # Select a picture with rofi
 wall_selection=$(find "${wall_dir}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -exec basename {} \; | sort | while read -r A ; do  echo -en "$A\x00icon\x1f""${cacheDir}"/"$A\n" ; done | $rofi_command)
 
-~/.config/hypr/scripts/theme_pick.sh "$wall_selection"
+~/.config/hypr/scripts/theme.sh "$wall_selection"
 
 exit 0
