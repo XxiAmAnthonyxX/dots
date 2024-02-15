@@ -3,10 +3,8 @@ killall dunst
 killall kitty
 killall spotify
 
-selected=$(ls -1 ~/dots/wallpapers | grep "png" | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
-
 swww init
-swww img ~/dots/wallpapers/$selected
+swww img ~/dots/wallpapers/$1
 rm -rf $HOME/.cache/swww
 
 theme=$(ls -1 ~/.themes | grep "oomox" | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
@@ -16,9 +14,9 @@ gsettings set org.gnome.desktop.interface gtk-theme "$theme"
 gsettings set org.gnome.desktop.interface icon-theme "$icons"
 
 wal -c
-wal -i ~/dots/wallpapers/$selected
+wal -i ~/dots/wallpapers/$1
 
-cp ~/dots/wallpapers/$selected ~/.cache/current_wallpaper.jpg
+cp ~/dots/wallpapers/$1 ~/.cache/current_wallpaper.rasi
 
 pywalfox update
 
