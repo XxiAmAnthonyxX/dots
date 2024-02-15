@@ -10,7 +10,6 @@ mkdir ~/.config/btop
 mkdir ~/.config/Thunar
 mkdir ~/.config/xfce4
 mkdir ~/.config/qimgv
-mkdir ~/.cache/jp
 
 cp -r ~/dots/btop/btop.conf ~/.config/btop
 cp -r ~/dots/cava/config ~/.config/cava
