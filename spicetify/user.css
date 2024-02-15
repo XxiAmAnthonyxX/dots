@@ -553,11 +553,14 @@ a.x-heroCategoryCard-HeroCategoryCard {
   gap: 0px;
   text-align: center;
   padding: 0.25em 0.75em;
-  --font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+}
+
+* {
+  font-family: "JetBrainsMono Nerd Font" !important
 }
 
 .main-entityHeader-headerText > span:first-child > span {
-  font-weight: bold;
+  font-weight: Regular;
   text-transform: uppercase;
   font-size: 0.75rem;
 }
