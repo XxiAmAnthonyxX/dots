@@ -29,7 +29,6 @@ cp -r ~/dots/qimgv/qimgv.conf ~/.config/qimgv
 cp -r ~/dots/templates ~/.config/wal
 cp -r ~/dots/thunar/helpers.rc ~/.config/xfce4
 cp -r ~/dots/thunar/uca.xml ~/.config/Thunar
-cp -r ~/dots/vscodium/settings.json ~/.config/VSCodium/User
 cp -r ~/dots/zsh/.p10k.zsh ~/
 cp -r ~/dots/zsh/.zshrc ~/
 
