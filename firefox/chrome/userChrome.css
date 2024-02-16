@@ -1,3 +1,7 @@
+.tabbrowser-tab .tab-icon-image {
+display: none !important;
+}
+
 /******************** BEGIN PYWALFOX CUSTOM CSS ********************/
 #main-window {
   --pywalfox-font-size: 13px;
