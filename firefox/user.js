@@ -32,7 +32,7 @@ user_pref("browser.startup.homepage", "about:home");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.newtabpage.enabled", true);
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+] Pocket > Sponsored Stories
