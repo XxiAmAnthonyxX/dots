@@ -1,15 +1,13 @@
 
-# Set some variables
+
 wall_dir="${HOME}/dots/wallpapers/"
 cacheDir="${HOME}/.cache/jp/${theme}"
 rofi_command="rofi -x11 -dmenu -theme ${HOME}/.config/rofi/wallpaper.rasi -theme-str ${rofi_override}"
 
-# Create cache dir if not exists
 if [ ! -d "${cacheDir}" ] ; then
         mkdir -p "${cacheDir}"
     fi
 
-# Convert images in directory and save to cache dir
 for imagen in "$wall_dir"/*.{jpg,jpeg,png,webp}; do
 	if [ -f "$imagen" ]; then
 		nombre_archivo=$(basename "$imagen")
@@ -19,11 +17,10 @@ for imagen in "$wall_dir"/*.{jpg,jpeg,png,webp}; do
     fi
 done
 
-# Select a picture with rofi
 wall_selection=$(find "${wall_dir}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -exec basename {} \; | sort | while read -r A ; do  echo -en "$A\x00icon\x1f""${cacheDir}"/"$A\n" ; done | $rofi_command)
 
 killall dunst
-pkill -USR2 cava
+#pkill -USR2 cava
 
 swww init
 swww img ~/dots/wallpapers/$wall_selection
