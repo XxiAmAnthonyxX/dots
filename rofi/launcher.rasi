@@ -5,7 +5,6 @@
 configuration {
 	modi:                       "drun,run,filebrowser,window";
     show-icons:                 true;
-    icon-theme:                 "papirus";
     display-drun:               "APPS";
     display-run:                "RUN";
     display-filebrowser:        "FILES";
