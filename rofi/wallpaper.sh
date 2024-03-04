@@ -26,6 +26,8 @@ swww init
 swww img ~/dots/wallpapers/$wall_selection
 rm -rf $HOME/.cache/swww
 
+#for file in *.jpg; do base=$( basename  ${file} .jpg); convert -resize 25% $file ${base}.png; done
+
 #theme=$(ls -1 ~/.themes | grep "oomox" | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
 #icons=$(ls -1 ~/.icons | grep "oomox" | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
 
@@ -59,3 +61,5 @@ mv colors-swaylock config
 cp -r $HOME/.cache/wal/colors-qimgv $HOME/.config/qimgv
 cd $HOME/.config/qimgv
 mv colors-qimgv theme.conf
+
+nwg-look
