@@ -22,7 +22,7 @@
     frame_color = "#40637F"
     separator_color = frame
     sort = yes
-    font = JetBrainsMono Nerd Font 8
+    font = Iosevka Nerd Font 8
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
