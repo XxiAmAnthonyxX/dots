@@ -10,7 +10,7 @@ configuration {
 @import                          "~/.cache/wal/colors-rofi"
 
 * {
-    font:                        "Iosevka Nerd Font 10";
+    font:                        "Iosevka 8";
 }
 
 /*****----- Main Window -----*****/
