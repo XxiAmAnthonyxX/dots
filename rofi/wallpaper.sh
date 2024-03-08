@@ -1,5 +1,4 @@
 
-
 wall_dir="${HOME}/dots/wallpapers/"
 cacheDir="${HOME}/.cache/jp/${theme}"
 rofi_command="rofi -x11 -dmenu -theme ${HOME}/.config/rofi/wallpaper.rasi -theme-str ${rofi_override}"
