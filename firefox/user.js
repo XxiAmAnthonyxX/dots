@@ -25,14 +25,14 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 // -------------------------------------
 // Set startup page [SETUP-CHROME]
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 1);
+user_pref("browser.startup.page", 0);
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.startup.homepage", "about:blank");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-user_pref("browser.newtabpage.enabled", true);
+user_pref("browser.newtabpage.enabled", false);
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+] Pocket > Sponsored Stories
