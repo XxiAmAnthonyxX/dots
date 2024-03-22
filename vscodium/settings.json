@@ -1,4 +1,7 @@
 {
     "workbench.colorTheme": "Wal"
     "editor.fontFamily": "Iosevka Nerd Font"
+    "editor.fontSize": 15
+    "terminal.external.linuxExec": "kitty"
+    "telemetry.telemetryLevel": "off"
 }
