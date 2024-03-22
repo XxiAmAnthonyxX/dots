@@ -22,7 +22,7 @@
     frame_color = "#40637F"
     separator_color = frame
     sort = yes
-    font = Iosevka Nerd Font 8
+    font = Iosevka Nerd Font 10
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -37,7 +37,7 @@
     icon_position = left
     min_icon_size = 0
     max_icon_size = 32
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /home/x/.icons/oomox-1/64x64@2x/
     sticky_history = yes
     history_length = 20
     dmenu = /usr/bin/dmenu -p dunst:
