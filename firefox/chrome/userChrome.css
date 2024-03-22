@@ -4,8 +4,8 @@ display: none !important;
 
 /******************** BEGIN PYWALFOX CUSTOM CSS ********************/
 #main-window {
-  --pywalfox-font-size: 13px;
-  --pywalfox-font-size-sm: calc(var(--pywalfox-font-size) * 0.9);
+  --pywalfox-font-size: 10px;
+  --pywalfox-font-size-sm: calc(var(--pywalfox-font-size) * 1.0);
   --pywalfox-background: var(--lwt-accent-color);
   --pywalfox-background-light: var(--arrowpanel-background);
   --pywalfox-text: var(--arrowpanel-color);
