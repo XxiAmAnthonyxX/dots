@@ -41,6 +41,8 @@ sudo systemctl enable NetworkManager.service
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify backup apply
+spicetify config custom_apps lyrics-plus
+spicetify apply
 
 cd ~/.config/rofi
 sudo chmod +x wallpaper.sh launcher.sh clipboard.sh
