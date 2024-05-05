@@ -22,10 +22,7 @@ sudo systemctl enable ufw.service
 sudo systemctl start ufw.service
 
 #PACKAGES
-yay -S hyprland kitty sddm-git dunst xdg-desktop-portal-hyprland xdg-desktop-portal-gtk qt6-wayland qt5-wayland polkit-kde-agent hyprlock waybar wofi swww grimblast-git xwaylandvideobridge-git cliphist wl-clip-persist udiskie nwg-look qt5ct qt6ct\
-network-manager-applet blueberry firefox python-pywalfox spotify spicetify-cli qimgv-light mpv pavucontrol thunar tumbler gvfs gvfs-mtp thunar-volman thunar-archive-plugin file-roller android-sdk-platform-tools android-file-transfer cava cmatrix\
-pipes.sh cbonsai tty-clock neofetch zsh oh-my-zsh-git zsh-theme-powerlevel10k zsh-syntax-highlighting zsh-autosuggestions btop pywal-16-colors themix-full-git ttf-iosevka-nerd bibata-cursor-theme libreoffice-still vscodium-electron bottles gamemode\
-mangohud gamescope pulseaudio-nextsink brightnessctl playerctl 
+yay -S hyprland kitty sddm-git dunst xdg-desktop-portal-hyprland xdg-desktop-portal-gtk qt6-wayland qt5-wayland polkit-kde-agent hyprlock waybar wofi swww grimblast-git xwaylandvideobridge-git cliphist wl-clip-persist udiskie nwg-look qt5ct qt6ct network-manager-applet blueberry firefox python-pywalfox spotify spicetify-cli qimgv-light mpv pavucontrol thunar tumbler gvfs gvfs-mtp thunar-volman thunar-archive-plugin file-roller android-sdk-platform-tools android-file-transfer cava cmatrix pipes.sh cbonsai tty-clock neofetch zsh oh-my-zsh-git zsh-theme-powerlevel10k zsh-syntax-highlighting zsh-autosuggestions btop pywal-16-colors themix-full-git ttf-iosevka-nerd bibata-cursor-theme libreoffice-still vscodium-electron bottles gamemode mangohud gamescope pulseaudio-nextsink brightnessctl playerctl 
 
 #DIRECTORIES
 mkdir ~/screenshots
