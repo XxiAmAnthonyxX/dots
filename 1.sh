@@ -28,40 +28,40 @@ pipes.sh cbonsai tty-clock neofetch zsh oh-my-zsh-git zsh-theme-powerlevel10k zs
 mangohud gamescope pulseaudio-nextsink brightnessctl playerctl 
 
 #DIRECTORIES
-sudo mkdir ~/screenshots
-sudo mkdir ~/recordings
-sudo mkdir ~/.config/spicetify/Themes/Pywal
-sudo mkdir ~/.config/dunst
-sudo mkdir ~/.config/cava
-sudo mkdir ~/.config/neofetch
-sudo mkdir ~/.config/btop
-sudo mkdir ~/.config/Thunar
-sudo mkdir ~/.config/xfce4
-sudo mkdir ~/.config/qimgv
+mkdir ~/screenshots
+mkdir ~/recordings
+mkdir ~/.config/spicetify/Themes/Pywal
+mkdir ~/.config/dunst
+mkdir ~/.config/cava
+mkdir ~/.config/neofetch
+mkdir ~/.config/btop
+mkdir ~/.config/Thunar
+mkdir ~/.config/xfce4
+mkdir ~/.config/qimgv
 
 #CONFIGS
-sudo cp -r ~/1/wallpapers ~/
-sudo cp -r ~/1/zsh/.p10k.zsh ~/
-sudo cp -r ~/1/zsh/.zshrc ~/
-sudo cp -r ~/1/firefox/user.js ~/.mozilla/firefox/ #default-release
-sudo cp -r ~/1/firefox/chrome ~/.mozilla/firefox/ #default-release
-sudo cp -r ~/1/btop/btop.conf ~/.config/btop
-sudo cp -r ~/1/cava/config ~/.config/cava
-sudo cp -r ~/1/dunst/dunstrc ~/.config/dunst
-sudo cp -r ~/1/hypr ~/.config/
-sudo cp -r ~/1/hypr ~/.config
-sudo cp -r ~/1/kitty/kitty.conf ~/.config/kitty
-sudo cp -r ~/1/neofetch/config.conf ~/.config/neofetch
-sudo cp -r ~/1/rofi ~/.config
-sudo cp -r ~/1/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
-sudo cp -r ~/1/spicetify/user.css ~/.config/spicetify/Themes/Pywal
-sudo cp -r ~/1/spicetify/adblock.js ~/.config/spicetify/Extensions
-sudo cp -r ~/1/spicetify/config-xpui.ini ~/.config/spicetify
-sudo cp -r ~/1/qimgv/qimgv.conf ~/.config/qimgv
-sudo cp -r ~/1/templates ~/.config/wal
-sudo cp -r ~/1/thunar/helpers.rc ~/.config/xfce4
-sudo cp -r ~/1/thunar/uca.xml ~/.config/Thunar
-sudo cp -r ~/1/vscodium/settings.json ~/.config/VSCodium/User
+cp -r ~/1/wallpapers ~/
+cp -r ~/1/zsh/.p10k.zsh ~/
+cp -r ~/1/zsh/.zshrc ~/
+cp -r ~/1/firefox/user.js ~/.mozilla/firefox/ #default-release
+cp -r ~/1/firefox/chrome ~/.mozilla/firefox/ #default-release
+cp -r ~/1/btop/btop.conf ~/.config/btop
+cp -r ~/1/cava/config ~/.config/cava
+cp -r ~/1/dunst/dunstrc ~/.config/dunst
+cp -r ~/1/hypr ~/.config/
+cp -r ~/1/hypr ~/.config
+cp -r ~/1/kitty/kitty.conf ~/.config/kitty
+cp -r ~/1/neofetch/config.conf ~/.config/neofetch
+cp -r ~/1/rofi ~/.config
+cp -r ~/1/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
+cp -r ~/1/spicetify/user.css ~/.config/spicetify/Themes/Pywal
+cp -r ~/1/spicetify/adblock.js ~/.config/spicetify/Extensions
+cp -r ~/1/spicetify/config-xpui.ini ~/.config/spicetify
+cp -r ~/1/qimgv/qimgv.conf ~/.config/qimgv
+cp -r ~/1/templates ~/.config/wal
+cp -r ~/1/thunar/helpers.rc ~/.config/xfce4
+cp -r ~/1/thunar/uca.xml ~/.config/Thunar
+cp -r ~/1/vscodium/settings.json ~/.config/VSCodium/User
 
 #SCRIPTS
 cd ~/.config/hypr/scripts
