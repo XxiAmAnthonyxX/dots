@@ -40,28 +40,28 @@ mkdir ~/.config/xfce4
 mkdir ~/.config/qimgv
 
 #CONFIGS
-cp -r ~/1/wallpapers ~/
-cp -r ~/1/zsh/.p10k.zsh ~/
-cp -r ~/1/zsh/.zshrc ~/
-cp -r ~/1/firefox/user.js ~/.mozilla/firefox/ #default-release
-cp -r ~/1/firefox/chrome ~/.mozilla/firefox/ #default-release
-cp -r ~/1/btop/btop.conf ~/.config/btop
-cp -r ~/1/cava/config ~/.config/cava
-cp -r ~/1/dunst/dunstrc ~/.config/dunst
-cp -r ~/1/hypr ~/.config/
-cp -r ~/1/hypr ~/.config
-cp -r ~/1/kitty/kitty.conf ~/.config/kitty
-cp -r ~/1/neofetch/config.conf ~/.config/neofetch
-cp -r ~/1/rofi ~/.config
-cp -r ~/1/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
-cp -r ~/1/spicetify/user.css ~/.config/spicetify/Themes/Pywal
-cp -r ~/1/spicetify/adblock.js ~/.config/spicetify/Extensions
-cp -r ~/1/spicetify/config-xpui.ini ~/.config/spicetify
-cp -r ~/1/qimgv/qimgv.conf ~/.config/qimgv
-cp -r ~/1/templates ~/.config/wal
-cp -r ~/1/thunar/helpers.rc ~/.config/xfce4
-cp -r ~/1/thunar/uca.xml ~/.config/Thunar
-cp -r ~/1/vscodium/settings.json ~/.config/VSCodium/User
+cp -r ~/dots/wallpapers ~/
+cp -r ~/dots/zsh/.pdots0k.zsh ~/
+cp -r ~/dots/zsh/.zshrc ~/
+cp -r ~/dots/firefox/user.js ~/.mozilla/firefox/ #default-release
+cp -r ~/dots/firefox/chrome ~/.mozilla/firefox/ #default-release
+cp -r ~/dots/btop/btop.conf ~/.config/btop
+cp -r ~/dots/cava/config ~/.config/cava
+cp -r ~/dots/dunst/dunstrc ~/.config/dunst
+cp -r ~/dots/hypr ~/.config/
+cp -r ~/dots/hypr ~/.config
+cp -r ~/dots/kitty/kitty.conf ~/.config/kitty
+cp -r ~/dots/neofetch/config.conf ~/.config/neofetch
+cp -r ~/dots/rofi ~/.config
+cp -r ~/dots/spicetify/color.ini ~/.config/spicetify/Themes/Pywal
+cp -r ~/dots/spicetify/user.css ~/.config/spicetify/Themes/Pywal
+cp -r ~/dots/spicetify/adblock.js ~/.config/spicetify/Extensions
+cp -r ~/dots/spicetify/config-xpui.ini ~/.config/spicetify
+cp -r ~/dots/qimgv/qimgv.conf ~/.config/qimgv
+cp -r ~/dots/templates ~/.config/wal
+cp -r ~/dots/thunar/helpers.rc ~/.config/xfce4
+cp -r ~/dots/thunar/uca.xml ~/.config/Thunar
+cp -r ~/dots/vscodium/settings.json ~/.config/VSCodium/User
 
 #SCRIPTS
 cd ~/.config/hypr/scripts
